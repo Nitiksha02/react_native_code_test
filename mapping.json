@@ -1,0 +1,9 @@
+{
+  "strict": {
+    "text-font-family": "Roboto",
+
+    "text-heading-1-font-size": 30,
+    "text-heading-1-font-weight": "700",
+    "text-heading-1-font-family": "Roboto-Bold"
+  }
+}
