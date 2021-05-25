@@ -115,8 +115,8 @@ async function schedulePushNotification(type = 'Push', todo = {}) {
         data: todo,
       },
       trigger: {
-        seconds: 2,
-        // seconds: 10800,
+        // seconds: 2,
+        seconds: 10800,
         repeats: true,
       },
     });
