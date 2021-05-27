@@ -13,7 +13,7 @@ import 'firebase/auth';
 import Loader from '../../animation/Loader'
 
 export const SignUpScreen = (props: SignUpScreenProps): LayoutElement => {
-  const [loader, setLoader] = React.useState<boolean>(true);
+  const [loader, setLoader] = React.useState<boolean>(false);
 
   const insets: EdgeInsets = useSafeArea();
 
@@ -111,6 +111,9 @@ export const SignUpScreen = (props: SignUpScreenProps): LayoutElement => {
 };
 
 const styles = StyleSheet.create({
+  SafeAreaStyle: {
+    flex: 1
+  },
   appBar: {
     height: 192,
   },
